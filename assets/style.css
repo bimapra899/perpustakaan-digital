@@ -125,3 +125,24 @@ body.bg-gradient {
 * {
     transition: backgroun-color 0.3s ease,color 0.3s ease;
 }
+
+/* Global Background */
+body {
+    background: url('./images/a7x.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Dark Theme Background Image */
+.theme-dark {
+    background: url('./images/a7x.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--text-light) !important;
+}
+
+/* Light Theme Background Image */
+.theme-light {
+    background: url('./images/a7x.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--text-dark) !important;
+}
+
